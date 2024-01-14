@@ -26,7 +26,8 @@ systemctl status MikrotikTrafficMonitor
 
 # Setting up Router
 
-You need to go into IP - Accounting and enable Accounting, also enable Web Access and
-type the IP of the machine where this tool will run on or leave it at default value.
+You need to go into winbox > IP - Accounting and enable Accounting, also
+enable Web Access there and type the IP of the machine where this tool will run on.
+Port (and host-IP) for web-access is set in /opt/MikrotikTrafficMonitor/config/config.yaml !
 
 You may also need to disable fast track as traffic that goes through fast track is not accounted for by RouterOS.
