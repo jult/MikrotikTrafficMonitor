@@ -1,12 +1,8 @@
-# This project is unmaintained and abandoned. A better simple solution is to use the following set of scripts: https://forum.mikrotik.com/viewtopic.php?t=168427
+# Mikrotik Traffic Monitor (using IP > Accounting, so v6.* of ROS)
 
-https://forum.mikrotik.com/viewtopic.php?t=168427 these will run directly on your router and you can view bandwidth, traffic and current rate in realtime. As it is it resets counters for devices when they reconnect to the network, but that part of the script can be adjusted. 
-
-# Mikrotik Traffic Monitor
-
-Mikrotik Traffic Monitor is a relatively small and lightweight server-side
-tool to collect and process Accounting data from Mikrotik routers running RouterOS and
-present them in a form that's easy to analyze.
+Mikrotik Traffic Monitor is a relatively small and lightweight server-side tool
+to collect and process Accounting data from Mikrotik routers running RouterOS
+and present them in a form that's easy to analyze.
 
 It uses python Flask for the server side of things.
 
